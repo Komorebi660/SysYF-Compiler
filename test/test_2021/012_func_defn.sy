@@ -1,0 +1,10 @@
+int a;
+float b=100;
+int func(int p, int q){
+	p = b+p-q;
+	return p;
+}
+int main(){
+	const int b=10;
+	return func(a,b);
+}

@@ -1,0 +1,12 @@
+const int a[5]={2,11,3,13,14};
+
+int func(int a[])
+{
+    return a[1];
+}
+
+int main()
+{
+    int b[a[a[0]]]={0,0,a[4]};
+    return b[2];
+}
