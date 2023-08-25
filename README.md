@@ -38,9 +38,20 @@
         
 ```
 
-## 环境构建
+## 实验环境
 
-实验框架搭建需要`flex`、`bison`(`3.7.6`及以上)、`clang`、`llvm`等工具，下面以`Ubuntu`为例安装上述工具
+- Ubuntu 20.04.6 LTS
+- gcc 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+- GNU Make 4.2.1
+- cmake 3.16.3
+- flex 2.6.4
+- bison 3.7.6
+- clang 10.0.0-4ubuntu1 
+- LLVM version 10.0.0
+
+### 环境构建
+
+实验框架搭建需要`flex`、`bison`(`3.7.6`及以上)、`clang`、`llvm`等工具，下面以`Ubuntu`为例安装上述工具:
 
 ```
 sudo apt install flex
